@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace EXOMUT.MultiState
 {
+    [Flags]
     public enum NoEnumStates { }
     
     public static class Enums

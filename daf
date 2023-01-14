@@ -1,0 +1,12 @@
+[1mdiff --git a/Scripts/MultiState/Enums.cs b/Scripts/MultiState/Enums.cs[m
+[1mindex 9293154..7760309 100644[m
+[1m--- a/Scripts/MultiState/Enums.cs[m
+[1m+++ b/Scripts/MultiState/Enums.cs[m
+[36m@@ -4,6 +4,7 @@[m [musing System.Linq;[m
+ [m
+ namespace EXOMUT.MultiState[m
+ {[m
+[32m+[m[32m    [Flags][m
+     public enum NoEnumStates { }[m
+     [m
+     public static class Enums[m
